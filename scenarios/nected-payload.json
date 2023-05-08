@@ -1,8 +1,8 @@
 {
   "steps":[
     {
-      "count": 10000,
-      "concurrency": 10
+      "count": 5000,
+      "concurrency": 20
     }
   ],
   "workflow": {
@@ -114,6 +114,6 @@
     }
   },
   "report": {
-    "intervalInSeconds": 5
+    "intervalInSeconds": 1
 }
 }

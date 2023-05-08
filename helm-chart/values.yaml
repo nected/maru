@@ -14,11 +14,11 @@ image:
 workers: "bench,basic,basic-act"
 
 tests:
-  namespaceName: benchtest
+  namespaceName: VidhaanExternal
   namespaceRetention: "1"
-  frontendAddress: temporaltest-frontend:7233
+  frontendAddress: 10.1.0.1:7233
   prometheusURL: "http://prometheus-server"
-  numDecisionPollers: 50
+  numDecisionPollers: 5
   skipNamespaceCreation: false
   caCertFile: ""
   clientCertFile: ""
