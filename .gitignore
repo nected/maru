@@ -27,3 +27,4 @@ test.log
 #prod files
 *-prod.yaml
 *-prod.json
+Makefile-prod

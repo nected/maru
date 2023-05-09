@@ -1,11 +1,11 @@
 
-IMAGE_TAG := latest
+IMAGE_TAG := $(shell whoami | tr -d " ")-local
 
 NAME_REGULAR ?= benchtest-regular
 NAME_SEPARATE_TQ ?= benchtest-separate-tq
 
-REPLICAS_REGULAR ?= 1
-REPLICAS_SEPARATE_TQ ?= 1
+REPLICAS_REGULAR ?= 10
+REPLICAS_SEPARATE_TQ ?= 10
 
 
 install-all: install-regular install-separate-tq

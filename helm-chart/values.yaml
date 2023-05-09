@@ -14,11 +14,11 @@ image:
 workers: "bench,basic,basic-act"
 
 tests:
-  namespaceName: <<NAMESPACE>>
+  namespaceName: benchtest
   namespaceRetention: "1"
-  frontendAddress: <<FRONTEND-ADDRESS>>:7233
-  prometheusURL: ""
-  numDecisionPollers: 5
+  frontendAddress: temporaltest-frontend:7233
+  prometheusURL: "http://prometheus-server"
+  numDecisionPollers: 50
   skipNamespaceCreation: false
   caCertFile: ""
   clientCertFile: ""
