@@ -24,3 +24,6 @@ temporal-bench
 test
 test.log
 
+#prod files
+*-prod.yaml
+*-prod.json
