@@ -14,10 +14,10 @@ image:
 workers: "bench,basic,basic-act"
 
 tests:
-  namespaceName: VidhaanExternal
+  namespaceName: <<NAMESPACE>>
   namespaceRetention: "1"
-  frontendAddress: 10.1.0.1:7233
-  prometheusURL: "http://prometheus-server"
+  frontendAddress: <<FRONTEND-ADDRESS>>:7233
+  prometheusURL: ""
   numDecisionPollers: 5
   skipNamespaceCreation: false
   caCertFile: ""
