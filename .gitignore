@@ -28,3 +28,4 @@ test.log
 *-prod.yaml
 *-prod.json
 Makefile-prod
+.DS_Store
